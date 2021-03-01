@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 1 - 34 </title>
+</head>
+<body>
+
+    <div style="text-align: center;">
+        <h1>Assignment JS 1-34</h1>
+        <h2>Sarmad Noman (16782)</h2>
+    </div>
+    
+    <script>
+
+        //1. Write a js program to find maximum between two numbers.
+
+            // var firstNumber = parseInt(prompt("Enter First Number"));
+            // var secondNumber = parseInt(prompt("Enter Second number"));
+
+            // if (firstNumber > secondNumber) {
+            //     alert("First number is greater than second");
+            // }else {
+            //     alert("Second number is greater than first");
+            // }
+
+        //2. Write a js program to find maximum between three numbers.
+
+            // var firstNumber = parseInt(prompt("Enter First Number"));
+            // var secondNumber = parseInt(prompt("Enter Second number"));
+            // var thirdNumber = parseInt(prompt("Enter Third number"));
+
+
+            // if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+            //     alert("First number is maximum");
+            // }else if (secondNumber > firstNumber && secondNumber > thirdNumber){
+            //     alert("Second number is maximum");
+            // }else {
+            //     alert("Third number is maximum");
+            // }
+
+        //3. Write a js program to check whether a number is negative, positive or zero.
+
+            // var number = parseInt(prompt("Enter number: "));
+
+            // if (number > 0) {
+            //     alert("Number is positive");
+            // } else if (number == 0) {
+            //     alert("Number is zero");
+            // } else {
+            //     alert("Number is negative");
+            // }
+
+        //4. Write a js program to check whether a number is divisible by 5 and 11 or not.
+
+            // var num = parseInt(prompt("Enter number: "));
+
+            // if((num % 5 == 0) && (num % 11 == 0)){
+            //     alert("Number is divisible by 5 and 11");
+            // }else{
+            //     alert("Number is not divisible by 5 and 11");
+            // }
+
+        //5. Write a js program to check whether a number is even or odd.
+
+            // var num = parseInt(prompt("Enter number: "));
+
+            // if(num % 2 == 0){
+            //     alert("Number is even");
+            // }else{
+            //     alert("Number is odd");
+            // }
+
+        //6. Write a js program to check whether a year is leap year or not.
+        
+            // var year = parseInt(prompt("Enter Year: " , "2021"))
+            // var leap = new Date(year, 1, 29).getDate() === 29;
+
+            // if (leap) {
+            //     alert(year + ' is a leap year');
+            // } else {
+            //     alert(year + ' is not a leap year');
+            // }
+
+        //7. Write a js program to check whether a character is alphabet or not.
+
+            // var userInput = prompt("Enter Charactor",);
+            // var alphabet1 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+            // if (userInput.length == 1 ){
+            //     if (alphabet1.includes(userInput)){
+            //         console.log("charactor is alphabet "+userInput);
+            //     }
+            //     else {
+            //         console.log("charactor is not alphabet "+userInput);
+            //     }
+            // }
+            // else {
+            //     console.log("Please enter single charactor")
+            // }
+
+        //8. Write a js program to input any alphabet and check whether it is vowel or consonant.
+
+            // var userInput = prompt("Enter Charactor",);
+            // var alphabet1 = ["A" ,"E", "I", "O", "U", "a","e", "i", "o", "u"];
+            
+            // if (userInput.length == 1 ){
+            //     if (alphabet1.includes(userInput)){
+            //         console.log("Alphabet is vowel "+userInput);
+            //     }
+            //     else {
+            //         console.log("Alphabet is consonant "+userInput);
+            //     }
+            // }
+            // else {
+            //     console.log("Please enter single charactor")
+            // }
+
+        //9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+
+            // var userInput = prompt("Enter Charactor",);
+            // var alphabet1 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+            // var digit = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+            // var specialChar = ["+", "-", "&&", "||", "!", "(", ")", "{", "}", "[", "]", "^", "~", "*", "?", ":"]
+
+            // if (userInput.length == 1 ){
+            //     if (alphabet1.includes(userInput)){
+            //     console.log("Charactor is Alphabet: "+userInput);
+            //     }
+            //     else if (digit.includes(userInput)) {
+            //     console.log("Charactor is Digit: "+userInput);
+            //     }else{
+            //     console.log("Charactor is Special Char: "+userInput);
+            //     }
+            // }
+            // else {
+            //     console.log("Please enter single charactor")
+            // }
+
+
+        //Strings Handling
+        //1. Write a js program to find length of a string.
+
+            // var userInput = prompt("Enter String",)
+            // console.log("Length of string is:",userInput.length)
+
+        //2. Write a js program to copy one string to another string.
+
+            // var string1 = "Hello string 1";
+            // var string2 = "Hello String 2";
+            // string1 = string2;
+            // console.log(string1,string2)
+
+        //3. Write a js program to concatenate two strings.
+
+            // var string1 = "Hello string 1";
+            // var string2 = "Hello String 2";
+            // string = string1 + " " + string2;
+            // console.log(string)
+
+        //5. Write a js program to convert lowercase string to uppercase.
+
+            // var string1 = prompt("Enter lowercase string")
+            // string = string1.toUpperCase();
+            // console.log(string);
+
+        //6. Write a js program to convert uppercase string to lowercase.
+        
+            // var string1 = prompt("Enter Uppercase string")
+            // string = string1.toLowerCase();
+            // console.log(string);
+
+        //7. Write a js program to toggle case of each character of a string.
+
+            // var string = prompt("Enter string",);
+
+            // var alphabetLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+            // var alphabetUpper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+            // var toggleCase = "";
+
+            // for (var i = 0 ; i <= string.length-1 ; i++){
+
+            //     if (alphabetLower.includes(string[i])){
+            //         toggleCase += string[i].toUpperCase()
+            //     }else{
+            //         toggleCase += string[i].toLowerCase();
+            //     }
+            // }
+            // console.log(toggleCase)
+
+        //8. Write a js program to find total number of alphabets, digits or special character in a string.
+
+            // var string = prompt("Enter String",)
+            // var alphabet1 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+            // var digit = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+            // var specialChar = ["+", "-", "&&", "||", "!", "(", ")", "{", "}", "[", "]", "^", "~", "*", "?", ":"]
+            
+            // var alphabetCount = "";
+            // var digitCount = "";
+            // var specialCharCount = "";
+
+            // for (var i = 0 ; i <= string.length-1 ; i++){
+            //     if (alphabet1.includes(string[i])){
+            //         alphabetCount++;
+            //     }
+            //     else if (digit.includes(string[i])) {
+            //         digitCount++;
+            //     }else{
+            //         specialCharCount++;
+            //     }
+            // }
+
+            // console.log("Total Alphabets: ",alphabetCount , ", Total Digits: ", digitCount , ",Total Special Charators: " , specialCharCount )
+        
+        //9. Write a js program to count total number of vowels and consonants in a string.
+
+            // var string = prompt("Enter String",);
+            // var alphabet1 = ["A" ,"E", "I", "O", "U", "a","e", "i", "o", "u"];
+            // var vowelCount = "";
+            // var consonantCount = "";
+
+            // for (var i = 0 ; i <= string.length-1 ; i++){
+            //     if (alphabet1.includes(string[i])){
+            //         vowelCount++;
+            //     }
+            //     else {
+            //        consonantCount++;
+            //     }
+            // }
+            // console.log("Total Vowels: ", vowelCount , ", Total Consonent: ", consonantCount)
+
+        //10. Write a js program to count total number of words in a string.
+
+            // var string = prompt("Enter String",);
+            // var wordsArray = string.split(" ");
+            // console.log("Total Words: ",wordsArray.length);
+
+            //11. Write a js program to find reverse of a string.
+
+            // var string = prompt("Enter String",);
+            // var reverseString = "";
+
+            // for (var i = string.length-1 ; i >= 0 ; i--){
+            //     reverseString += string[i];
+            // }
+            // console.log("Reverse string: ",reverseString);
+            
+        //12. Write a js program to check whether a string is palindrome or not.
+
+            // var string = prompt("Enter String",);
+            // var reverseString = "";
+
+            // for (var i = string.length-1 ; i >= 0 ; i--){
+            //     reverseString += string[i];
+            // }
+
+            // if (string === reverseString){
+            //     console.log("string is palindrome: ",reverseString);
+            // } else {
+            //     console.log("string is not palindrome: ",reverseString);
+            // }
+
+        //13. Write a js program to reverse order of words in a given string
+
+            // var string = prompt("Enter String",);
+            // var wordsArray = string.split(" ");
+
+            // for (var i = 0 ; i <= wordsArray.length-1 ; i++){
+            //   wordsArray[i] = wordsArray[i].split("").reverse().join("");
+            // }
+
+            // console.log("Reverse of words: ",wordsArray.join(" "));
+
+        //14. Write a js program to find first occurrence of a character in a given string.
+
+            // var myInput = prompt("Enter any string",);
+            // console.log("First occurence of string is:" ,myInput[0])
+
+            //15. Write a js program to find last occurrence of a character in a given string.
+
+            // var myInput = prompt("Enter any string",);
+            // console.log("First occurence of string is:" ,myInput[myInput.length-1])
+
+
+        //Array Handling
+        //1-Write a js program to read and print elements of array.
+
+            // var myArray = ["Sarmad","Noman","Naveed","Waqas"]
+
+            // for (let printArray of myArray){
+            //     console.log(printArray);
+            // }
+
+        //2. Write a js program to print all negative elements in an array.
+
+            // var myArray = [2,-3,5,-1,-19]
+
+            // for (let printArray of myArray){
+            //     if(printArray < 0){
+            //     console.log("Negative elements in Array: " ,printArray);
+            //     }
+            // }
+
+        //3. Write a js program to find sum of all array elements.
+
+            // var myArray = [2,3,5,1,19]
+            // var sum = 0;
+            // for (let printArray of myArray){
+            //     sum = sum + printArray ;
+            // }
+            // console.log("Sum of Array is: " ,sum);
+
+        //4. Write a js program to find maximum and minimum element in an array.
+
+            // var myArray = [2,3,5,1,19,22]
+            // var min = Math.min( ...myArray )
+            // var max = Math.max( ...myArray )
+            // console.log("Minimum: " ,min , " Maximum: " , max);
+
+        //5. Write a js program to find second largest element in an array.
+
+            // var myArray = [2,3,5,1,19,22]; 
+            // var max = Math.max.apply(null, myArray); 
+            // myArray.splice(myArray.indexOf(max), 1); 
+            // console.log("Second largest element: ",Math.max.apply(null, myArray));
+
+        //6. Write a js program to count total number of even and odd elements in an array.
+
+            // var myArray = [2,3,5,1,19,22]; 
+            // var even = []
+            // var odd = []
+            // for (let num of myArray)
+            // if(num % 2 == 0){
+            //     even.push(num)
+                    
+            // }else{
+            //     odd.push(num)
+            // }
+            // console.log("Total even:",even.length , " Total odd:" ,odd.length );
+
+        //7. Write a js program to count total number of negative elements in an array.
+
+            // var myArray = [2,-3,-5,-1,-19,-22]; 
+            // var negative = []
+            // for (let num of myArray)
+            // if(num < 0){
+            //     negative.push(num)       
+            // }
+            // console.log("Total negative numbers:",negative.length );
+
+        //8. Write a js program to copy all elements from an array to another array.
+
+            // var myArray = [2,-3,"noman",true,-19,"sarmad"]; 
+            // var newArray = [...myArray]
+            // console.log(newArray);
+
+        //9. Write a js program to insert an element in an array.
+
+            // var myInput = prompt("Enter any element: ",);
+            // var myArray = [2,-3,"noman",true,-19,"sarmad"]; 
+            // myArray.push(myInput)
+            // console.log("New element added: ",myArray);
+
+        //10. Write a js program to delete an element from an array at specified position.
+        
+            // var myInput = parseInt(prompt("Enter position number: "));
+            // var myArray = [2,-3,"noman",true,-19,"sarmad"];
+
+            // myArray.splice(myInput,1);
+            // console.log(myArray);    
+
+            
+        //Loops
+        //1. Write a js program to print all natural numbers from 1 to n. - using for loop
+            
+            // var myInput = parseInt(prompt("How many natural numbers you want: ","50"))
+            // for(var i = 1; i <= myInput; i++){
+            //     console.log(i);
+            // }
+
+        //2. Write a js program to print all natural numbers in reverse (from n to 1). - using for loop
+
+            // var myInput = parseInt(prompt("How many reverse natural numbers you want: ","50"))
+            // for(var i = myInput; i > 0 ; i--){
+            //     console.log(i);
+            // }
+
+        //3. Write a js program to print all alphabets from a to z. - using for loop
+
+            // var alphabet1 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+            // for (var printABC of alphabet1){
+            //     console.log(printABC)
+            // }
+
+        //4. Write a js program to print all even numbers between 1 to 100. - using forloop
+
+            // for (var i = 1 ; i <= 100; i++){
+            //     if ( i % 2 == 0 ){
+            //         console.log("Even number: " ,i);
+            //     }
+            // }
+
+        //5. Write a js program to print all odd number between 1 to 100.
+
+            // for (var i = 1 ; i <= 100; i++){
+            //     if (!( i % 2 == 0 )){
+            //         console.log("Odd number: " ,i);
+            //     }
+            // }
+
+        //Math Methods
+        //1-Write a js program to round the number, without using the math.round method!
+
+            // var round = prompt("Enter floating number", "23.721");
+            // var dot = round.indexOf(".")
+            // var newData = parseInt(round[dot+1]) 
+            // var mathRound = parseInt(round);
+            // if(newData > 5){
+            //     mathRound++;
+            // }
+            // console.log(mathRound);
+
+        //2-Write a js program to ceil the number without using math.ceil method!
+
+            // var round = parseInt( prompt("Enter floating number", "23.721"));
+            // round++;
+            // console.log(round);
+
+        //3-Write a js program to floor the number without using the math.floor method!
+
+            // var round = parseInt( prompt("Enter floating number", "23.721"));
+            // round--;
+            // console.log(round);
+
+
+    </script>
+</body>
+</html>
